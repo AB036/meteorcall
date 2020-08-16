@@ -1,0 +1,20 @@
+html {
+	background-image: url("banner.png");
+	background-position: right top;
+	background-repeat: repeat-x;
+	padding-bottom: 100px;
+
+}
+
+body {
+	background: transparent;
+	max-width: 1000px;
+	margin: 100px auto 200px auto;
+	text-align: left;
+	color: black;
+}
+
+a {
+	color: red;
+}
+
