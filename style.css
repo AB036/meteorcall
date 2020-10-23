@@ -1,9 +1,24 @@
 html {
+/*
 	background-image: url("img/banner.png");
 	background-position: right top;
 	background-repeat: repeat-x;
+*/
 	padding-bottom: 100px;
 	background-color: #f8f8ff;
+}
+
+.banner-container {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: -1;
+	min-height: 205px;
+	line-height: 205px;
+}
+
+.banner-container > img {
+  vertical-align: middle;
 }
 
 body {
@@ -18,3 +33,8 @@ a {
 	color: red;
 }
 
+.center-fit {
+	max-width: 100%;
+	max-height: 100vh;
+	margin: auto;
+}
