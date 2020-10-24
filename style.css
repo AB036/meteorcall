@@ -8,6 +8,26 @@ html {
 	background-color: #f8f8ff;
 }
 
+body {
+	background: transparent;
+	max-width: 1000px;
+	margin: 50px auto 200px auto;
+	text-align: left;
+	color: black;
+}
+
+a {
+	color: red;
+}
+
+pre code {
+  background-color: #eeeeee;
+  border: 1px solid #ff9999;
+  display: block;
+  padding: 5px;
+  font-family: monospace;
+}
+
 .banner-container {
 	position: absolute;
 	top: 0px;
@@ -21,16 +41,14 @@ html {
   vertical-align: middle;
 }
 
-body {
-	background: transparent;
-	max-width: 1000px;
-	margin: 50px auto 200px auto;
-	text-align: left;
-	color: black;
-}
-
-a {
-	color: red;
+.shell {
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background: #202020;
+	font-family: monospace;
+	color: #DFDFDF;
 }
 
 .center-fit {
