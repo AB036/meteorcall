@@ -1,58 +1,58 @@
 html {
-	background-image: url("/img/wizard.png");
-	background-position: left bottom;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	padding-bottom: 100px;
-	background-color: #f8f8ff;
+    background-image: url("/img/wizard.png");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 100px;
+    background-color: #f8f8ff;
 }
 
 body {
-	background: transparent;
-	max-width: 1000px;
-	margin: 50px auto 200px auto;
-	text-align: left;
-	color: black;
+    background: transparent;
+    max-width: 1000px;
+    margin: 50px auto 200px auto;
+    text-align: left;
+    color: black;
 }
 
 a {
-	color: red;
+    color: red;
 }
 
 pre code {
-  background-color: #eeeeee;
-  border: 1px solid #ff9999;
-  display: block;
-  padding: 5px;
-  font-family: monospace;
+    background-color: #eeeeee;
+    border: 1px solid #ff9999;
+    display: block;
+    padding: 5px;
+    font-family: monospace;
 }
 
 .banner-container {
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	z-index: -1;
-	min-height: 205px;
-	line-height: 205px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    min-height: 205px;
+    line-height: 205px;
 }
 
 .banner-container > img {
-  vertical-align: middle;
+    vertical-align: middle;
 }
 
 .shell {
-	width: 100%;
-	height: 100%;
-	top: 0px;
-	left: 0px;
-	background: #202020;
-	font-family: monospace;
-	color: #DFDFDF;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: #202020;
+    font-family: monospace;
+    color: #DFDFDF;
 }
 
 .center-fit {
-	max-width: 100%;
-	max-height: 100vh;
-	margin: auto;
-	display: block;
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+    display: block;
 }
