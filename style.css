@@ -27,6 +27,8 @@ pre code {
     display: block;
     padding: 5px;
     font-family: monospace;
+    word-wrap: normal;
+    overflow-x: auto;
 }
 
 .banner-container {
