@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Attestation generator</title>
+<link rel='stylesheet' type='text/css' href='/style.css'>
+<meta charset="utf-8"/>
+</head>
+
+<body>
+	<div class="banner-container">
+		<img src="/img/banner.png" alt="banner" style="max-height: 30vw;">
+	</div>
+	
+	<nav>
+		<a href="/index.html">Home</a> |
+		<a href="/pages.html">Pages</a> |
+		<a href="/contact.html">Contact</a> |
+		<a href="https://github.com/AB036">GitHub</a> 
+	</nav>
+	
+	<p>&nbsp;</p>
+
+	<h1>Attestation generator</h1>
+	
+	<img class="center-fit" alt="coofing" src="/img/murdoch_coof.jpg">
+	
+
+	<p>The french government declared a second national lockdown that has been going on since November 1st because of the coronavirus. Apparently the infection rates and death cases were too high. This isn't my experience (I haven't heard of anyone suffering from the virus) and as everyone knows, anectodal evidence is always a good basis for judgement.</p>
+	
+	<p>This lockdown is way more permissive than the first one in spring. You can do basically anything you want, as long as you have a paper where you allow yourself to do so. This is the so-called "attestation".</p>
+    
+    <p style="text-align: center;"><i>I can go outside and buy food.</i></p>
+    <p style="text-align: center;"><i>Signed: me</i></p>
+    
+    <p>You can print the document, but it would be a waste of paper to print a new one every day. Fortunately, you can generate a pdf by using a government website. It is allowed to use the pdf file on your phone instead of having a printed version.</p>
+	
+    <p>Through some weird turn of fate, the code of the mentionned website was made public: <a href="https://github.com/LAB-MI/attestation-deplacement-derogatoire-q4-2020">github link</a>.</p>
+    
+    <p>This was the occasion to make myself a tool to automatically and quickly generate the pdf when I need it. It would need to work on a phone, and the easiest solution I found was making a static HTML file.</p>
+    
+    <p>When using a local HTML file, Firefox would refuse to open other local files because of "security" reasons. It was maybe possible by changing some setting, but the easier and funnier way was to put everything in a single file.</p>
+    
+    <p>You can find the result here: <a href="https://github.com/AB036/attestation_generator">github link</a>. A number of people have told me that this tool is completely useless since the government website actually works very well, but it had to be done, only for the principle of it.</p>
+    
+    <p>The development process was copy/pasting javascript code until it worked. Webdevs sure have it easy.</p>
+</body>
+
+</html>
+
+
+
